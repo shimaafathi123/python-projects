@@ -52,7 +52,7 @@ root.title('Rock, Paper, Scissors')
 root.geometry('300x200')
 root.configure(bg='#f0f0f0')
 
-# Buttons
+
 rock_button = tk.Button(root, text='Rock', command=on_rock, bg='#ff9999', fg='white', font=('Helvetica', 12))
 rock_button.pack(pady=5, padx=10, side=tk.LEFT)
 
